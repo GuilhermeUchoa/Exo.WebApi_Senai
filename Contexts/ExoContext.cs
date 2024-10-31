@@ -21,7 +21,7 @@ namespace Exo.WebApi.Contexts
             {
                 // Essa string de conexão depende da SUA máquina.
 
-                optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;"
+                optionsBuilder.UseSqlServer("Server=\\GUILHERMEUCHOA\\SQLEXPRESS;"
                 + "Database=ExoApi;Trusted_Connection=True;");
 
                 // Exemplo 1 de string de conexão
